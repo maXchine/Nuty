@@ -51,12 +51,9 @@
     <Compile Include="Core\AuthorizationAttribute.cs" />
     <Compile Include="Module\Action.cs" />
     <Compile Include="Module\Controller.cs" />
-    <Compile Include="ReadMe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Log\" />
     <Folder Include="Mapping\" />
   </ItemGroup>
   <ItemGroup>
