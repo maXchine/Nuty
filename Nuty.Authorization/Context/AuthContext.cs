@@ -1,8 +1,8 @@
-﻿using Nuty.Authorization.Module;
-
-namespace Nuty.Authorization.Context {
+﻿namespace Nuty.Authorization.Context {
 
     using System.Data.Entity;
+    using Module;
+
     public class AuthContext : DbContext {
 
         public AuthContext(string connectionString) : base(connectionString) { }

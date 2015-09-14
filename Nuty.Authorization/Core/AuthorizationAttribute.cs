@@ -1,6 +1,7 @@
-﻿using System.Web.Mvc;
+﻿namespace Nuty.Authorization.Core {
 
-namespace Nuty.Authorization.Core {
+    using System.Web.Mvc;
+
     public class AuthorizationAttribute : AuthorizeAttribute {
 
         protected override bool AuthorizeCore(System.Web.HttpContextBase httpContext) { return base.AuthorizeCore(httpContext); }
