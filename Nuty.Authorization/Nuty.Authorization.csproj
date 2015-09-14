@@ -39,14 +39,16 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\AuthContext.cs" />
+    <Compile Include="Core\AuthorizationAttribute.cs" />
     <Compile Include="Module\Action.cs" />
     <Compile Include="Module\Controller.cs" />
     <Compile Include="ReadMe.cs" />
@@ -54,7 +56,6 @@
     <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Core\" />
     <Folder Include="Log\" />
     <Folder Include="Mapping\" />
   </ItemGroup>

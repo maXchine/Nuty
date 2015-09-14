@@ -1,4 +1,4 @@
-﻿using System.Data;
+﻿using Nuty.Authorization.Module;
 
 namespace Nuty.Authorization.Context {
 
@@ -6,7 +6,7 @@ namespace Nuty.Authorization.Context {
     public class AuthContext : DbContext {
 
         public AuthContext(string connectionString) : base(connectionString) { }
-
-        public DataSet<>
+        public DbSet<Controller> Controllers { get; set; }
+        public DbSet<Action> Actions { get; set; }
     }
 }
